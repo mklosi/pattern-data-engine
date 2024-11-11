@@ -18,6 +18,7 @@ CREATE TABLE dna_seq_metadata (
     target_region VARCHAR,                     -- Specifies the target region (e.g., "whole genome", "exome", "custom panel")
     variant_caller VARCHAR,                    -- Variant calling software used (e.g., "GATK", "FreeBayes")
     quality_control_passed BOOLEAN,            -- Indicates if sample passed QC specific to DNA-seq
+    format_fields VARCHAR,                     -- GT:AD:DP:GQ:PL
     -- Admin fields --------------------------
     created_at TIMESTAMPTZ,                    -- Record creation timestamp (timezone-aware)
     updated_at TIMESTAMPTZ,                    -- Last update timestamp (timezone-aware)
