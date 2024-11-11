@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "pattern-data-engine"
 version = "0.1.0"
-description = "&&&"
+description = "A scalable Data Engine for Pattern BioSciences, designed to store, manage, and analyze high-throughput genomic data (mRNA-seq, scRNA-seq, miRNA-seq, DNA-seq) with metadata in Redshift and sample-level data in Parquet files on S3, supporting flexible, cost-effective, and efficient data access for bioinformatics research."
 authors = ["Martin Klosi <roise3000@gmail.com>"]
 readme = "README.md"
 package-mode = false
